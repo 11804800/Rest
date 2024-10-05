@@ -1,0 +1,32 @@
+body,html
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+#main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "gilroy";
+    flex-direction: column;
+}
+h1
+{
+   
+    font-size: 8vh;
+}
+p
+{
+
+    font-size: 3vh;
+}
+ul li:nth-child(1)
+{
+    list-style: none;
+
+}
